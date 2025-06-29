@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-spiritual-50 to-cleansing-50;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-spiritual-600 to-spiritual-700 hover:from-spiritual-700 hover:to-spiritual-800 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-cleansing-500 to-cleansing-600 hover:from-cleansing-600 hover:to-cleansing-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl;
+  }
+  
+  .card-spiritual {
+    @apply bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-spiritual-200/50 p-6 transform transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-spiritual-600 to-cleansing-600 bg-clip-text text-transparent;
+  }
+  
+  .mystic-title {
+    font-family: 'Cinzel', serif;
+    @apply text-gradient font-bold tracking-wide;
+  }
+  
+  .mystic-subtitle {
+    font-family: 'Philosopher', sans-serif;
+    @apply text-spiritual-700 font-medium;
+  }
+  
+  .mystic-text {
+    font-family: 'Cormorant Garamond', serif;
+    @apply text-spiritual-600;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+}
