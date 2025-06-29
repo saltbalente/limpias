@@ -125,9 +125,9 @@ const ServicesSlider = () => {
                           <span className="text-3xl font-bold text-spiritual-600">
                             {service.price}
                           </span>
-                          <button className="btn-primary">
+                          <a href="https://wa.me/15103624147?text=Hola,%20me%20interesa%20solicitar%20el%20servicio%20de%20limpia%20espiritual.%20¿Pueden%20darme%20más%20información?" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block text-center">
                             Solicitar Ahora
-                          </button>
+                          </a>
                         </div>
                       </div>
                       

@@ -215,12 +215,12 @@ const TestimonialsSection = () => {
               Únete a las cientos de personas que han transformado su vida con nuestros servicios de limpieza espiritual
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary text-lg px-8 py-4">
+              <a href="https://wa.me/15103624147?text=Hola,%20quiero%20comenzar%20mi%20transformación%20espiritual.%20¿Pueden%20ayudarme?" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 inline-block text-center">
                 🌟 Comenzar Mi Transformación
-              </button>
-              <button className="btn-secondary text-lg px-8 py-4">
+              </a>
+              <a href="tel:+15103624147" className="btn-secondary text-lg px-8 py-4 inline-block text-center">
                 📞 Consulta Gratuita
-              </button>
+              </a>
             </div>
           </div>
         </div>

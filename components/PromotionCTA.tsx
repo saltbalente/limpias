@@ -139,12 +139,12 @@ const PromotionCTA = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <button className="bg-white hover:bg-gray-100 text-spiritual-700 font-bold py-4 px-8 rounded-xl text-xl transform transition-all duration-300 hover:scale-105 shadow-2xl">
+          <a href="https://wa.me/15103624147?text=Hola,%20quiero%20reclamar%20la%20oferta%20especial%20de%20limpia%20espiritual.%20¿Está%20disponible?" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-100 text-spiritual-700 font-bold py-4 px-8 rounded-xl text-xl transform transition-all duration-300 hover:scale-105 shadow-2xl inline-block text-center">
             🎯 RECLAMAR OFERTA AHORA
-          </button>
-          <button className="bg-cleansing-400 hover:bg-cleansing-500 text-white font-bold py-4 px-8 rounded-xl text-xl transform transition-all duration-300 hover:scale-105 shadow-2xl">
+          </a>
+          <a href="tel:+15103624147" className="bg-cleansing-400 hover:bg-cleansing-500 text-white font-bold py-4 px-8 rounded-xl text-xl transform transition-all duration-300 hover:scale-105 shadow-2xl inline-block text-center">
             📞 LLAMAR AHORA
-          </button>
+          </a>
         </div>
         
         {/* Guarantee */}

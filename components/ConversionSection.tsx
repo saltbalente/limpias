@@ -89,12 +89,12 @@ const ConversionSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-cleansing-500 hover:bg-cleansing-600 text-white font-bold py-4 px-8 rounded-lg text-lg transform transition-all duration-300 hover:scale-105 shadow-xl">
+            <a href="https://wa.me/15103624147?text=Hola,%20necesito%20una%20limpia%20espiritual%20urgente.%20¿Pueden%20atenderme%20hoy?" target="_blank" rel="noopener noreferrer" className="bg-cleansing-500 hover:bg-cleansing-600 text-white font-bold py-4 px-8 rounded-lg text-lg transform transition-all duration-300 hover:scale-105 shadow-xl inline-block text-center">
               🚨 Solicitar Limpia Urgente
-            </button>
-            <button className="bg-white/20 hover:bg-white/30 text-white font-bold py-4 px-8 rounded-lg text-lg transform transition-all duration-300 hover:scale-105 backdrop-blur-sm border border-white/30">
+            </a>
+            <a href="tel:+15103624147" className="bg-white/20 hover:bg-white/30 text-white font-bold py-4 px-8 rounded-lg text-lg transform transition-all duration-300 hover:scale-105 backdrop-blur-sm border border-white/30 inline-block text-center">
               📞 Consulta Inmediata
-            </button>
+            </a>
           </div>
           
           <p className="text-sm text-spiritual-300 mt-6">

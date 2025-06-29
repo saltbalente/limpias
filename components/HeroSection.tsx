@@ -60,12 +60,12 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="btn-primary text-lg px-8 py-4 animate-slide-up">
+            <a href="https://wa.me/15103624147?text=Hola,%20me%20interesa%20solicitar%20una%20limpia%20espiritual.%20¿Podrían%20ayudarme?" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 animate-slide-up inline-block text-center">
               🔮 Solicitar Limpia Ahora
-            </button>
-            <button className="btn-secondary text-lg px-8 py-4 animate-slide-up animation-delay-200">
+            </a>
+            <a href="tel:+15103624147" className="btn-secondary text-lg px-8 py-4 animate-slide-up animation-delay-200 inline-block text-center">
               📞 Consulta Gratuita
-            </button>
+            </a>
           </div>
           
           {/* Trust indicators */}
