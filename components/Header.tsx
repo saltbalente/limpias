@@ -41,7 +41,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-spiritual-600">
               <Phone size={16} />
-              <span className="text-sm font-medium">+1 (555) 123-4567</span>
+              <span className="text-sm font-medium">+1 (510) 362-4147</span>
             </div>
             <div className="flex items-center space-x-2 text-spiritual-600">
               <Mail size={16} />
@@ -95,7 +95,7 @@ const Header = () => {
               <div className="pt-4 border-t border-gray-200">
                 <div className="flex items-center space-x-2 text-spiritual-600 mb-2">
                   <Phone size={16} />
-                  <span className="text-sm font-medium">+1 (555) 123-4567</span>
+                  <span className="text-sm font-medium">+1 (510) 362-4147</span>
                 </div>
                 <div className="flex items-center space-x-2 text-spiritual-600">
                   <Mail size={16} />

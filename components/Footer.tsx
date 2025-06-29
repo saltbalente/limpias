@@ -43,14 +43,14 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="text-cleansing-300" size={20} />
                 <div>
-                  <p className="font-medium">+1 (555) 123-4567</p>
+                  <p className="font-medium">+1 (510) 362-4147</p>
                   <p className="text-spiritual-300 text-sm">Línea directa 24/7</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="text-cleansing-300" size={20} />
                 <div>
-                  <p className="font-medium">+1 (555) 987-6543</p>
+                  <p className="font-medium">+1 (510) 362-4147</p>
                   <p className="text-spiritual-300 text-sm">WhatsApp</p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const Footer = () => {
       {/* Emergency Contact Banner */}
       <div className="bg-red-600 text-white text-center py-3">
         <p className="font-bold">
-          🚨 EMERGENCIA ESPIRITUAL: Llama ahora +1 (555) 123-4567 - Atención 24/7
+          🚨 EMERGENCIA ESPIRITUAL: Llama ahora +1 (510) 362-4147 - Atención 24/7
         </p>
       </div>
     </footer>
