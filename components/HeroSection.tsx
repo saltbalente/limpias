@@ -5,10 +5,20 @@ import { Sparkles, Shield, Heart } from 'lucide-react'
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with gradient and image */}
+      {/* Background with gradient and images */}
       <div className="absolute inset-0 bg-gradient-to-br from-spiritual-100 via-cleansing-50 to-protection-100"></div>
-      <div className="absolute top-10 right-10 opacity-20 hidden lg:block">
-        <img src="/images/limpia-espiritual-1.jpg" alt="Limpia espiritual" className="w-48 h-48 object-cover rounded-full shadow-2xl" />
+      
+      {/* Featured Images - Very Visible */}
+      <div className="absolute top-10 right-10 opacity-30 hidden lg:block">
+        <img src="https://i.pinimg.com/736x/5b/73/c2/5b73c2bf874298894335362b436a2b58.jpg" alt="Limpia espiritual" className="w-56 h-56 object-cover rounded-full shadow-2xl border-4 border-white/50" />
+      </div>
+      
+      <div className="absolute top-10 left-10 opacity-30 hidden lg:block">
+        <img src="https://i.pinimg.com/736x/73/3b/3a/733b3a15533475631082006d261eb8fc.jpg" alt="Protección espiritual" className="w-48 h-48 object-cover rounded-full shadow-2xl border-4 border-white/50" />
+      </div>
+      
+      <div className="absolute bottom-32 right-16 opacity-30 hidden lg:block">
+        <img src="https://i.pinimg.com/736x/ae/13/41/ae1341f679f9c928b513a9a7fc18a41c.jpg" alt="Energías espirituales" className="w-40 h-40 object-cover rounded-full shadow-2xl border-4 border-white/50" />
       </div>
       
       {/* Floating elements */}
@@ -66,6 +76,15 @@ const HeroSection = () => {
             <a href="tel:+15103624147" className="btn-secondary text-lg px-8 py-4 animate-slide-up animation-delay-200 inline-block text-center">
               📞 Consulta Gratuita
             </a>
+          </div>
+          
+          {/* Featured Images Gallery - Mobile Visible */}
+          <div className="mt-8 mb-8 lg:hidden">
+            <div className="flex justify-center gap-4 flex-wrap">
+              <img src="https://i.pinimg.com/736x/5b/73/c2/5b73c2bf874298894335362b436a2b58.jpg" alt="Limpia espiritual" className="w-24 h-24 object-cover rounded-full shadow-lg border-2 border-white/70" />
+              <img src="https://i.pinimg.com/736x/73/3b/3a/733b3a15533475631082006d261eb8fc.jpg" alt="Protección espiritual" className="w-24 h-24 object-cover rounded-full shadow-lg border-2 border-white/70" />
+              <img src="https://i.pinimg.com/736x/ae/13/41/ae1341f679f9c928b513a9a7fc18a41c.jpg" alt="Energías espirituales" className="w-24 h-24 object-cover rounded-full shadow-lg border-2 border-white/70" />
+            </div>
           </div>
           
           {/* Trust indicators */}

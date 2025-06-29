@@ -104,11 +104,27 @@ const TestimonialsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mystic-title text-gradient mb-6">
-            Lo que dicen nuestros clientes
+            Lo Que Dicen Nuestros Clientes
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Miles de personas han recuperado su bienestar gracias a nuestros servicios de limpieza espiritual
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            Testimonios reales de personas que han transformado sus vidas
           </p>
+          
+          {/* Featured Images Gallery */}
+          <div className="flex justify-center gap-6 mb-8">
+            <div className="relative group">
+              <img src="https://i.pinimg.com/736x/5b/73/c2/5b73c2bf874298894335362b436a2b58.jpg" alt="Limpia espiritual" className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-lg shadow-xl border-4 border-spiritual-200 group-hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-spiritual-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <div className="relative group">
+              <img src="https://i.pinimg.com/736x/73/3b/3a/733b3a15533475631082006d261eb8fc.jpg" alt="Protección espiritual" className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-lg shadow-xl border-4 border-cleansing-200 group-hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-cleansing-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <div className="relative group">
+              <img src="https://i.pinimg.com/736x/ae/13/41/ae1341f679f9c928b513a9a7fc18a41c.jpg" alt="Energías espirituales" className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-lg shadow-xl border-4 border-protection-200 group-hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-protection-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+          </div>
         </div>
 
         {/* Google Reviews Header */}
